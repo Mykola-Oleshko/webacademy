@@ -1,18 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <div class="Logo">Logo</div>
-    <div class="Menu">Menu</div>
-    <div class="News">news feed</div>
-    <div class="List">list of some thing</div>
-    <div class="Navig">navigation bar</div>
-    <div class="Footer">footer</div>
-    
+    <!-- <span class="Logo">Logo</span> 
+        <div class="Menu">Menu</div>
+        <div class="News">news feed</div>
+        <div class="List">list of some thing</div>
+        <div class="Navig">navigation bar</div>
+        <div class="Footer">footer</div> -->
+    <table cellspacing="0">
+        <tr>
+            <td class="Logo"> Logo</td>
+            <td class="Menu" colspan="2"> Menu</td>
+
+
+        </tr>
+        <tr>
+            <td class="News">News Feed</td>
+            <td class="List">List of some thing</td>
+            <td rowspan="2" class="Navig">Navigation Bar</td>
+        </tr>
+        <tr>
+            <td colspan="2" class="Footer">Footer</td>
+
+        </tr>
+
+    </table>
+
 </body>
+
 </html>

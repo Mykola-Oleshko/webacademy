@@ -1,46 +1,58 @@
+table {
+    border-color: none;
+    border: 0px;
+    font-size: 25px;
+    
+ 
+}
 
 .Logo {
-    width: 23%;
-	height: 100px;
-    background: red;
+    width: 30%;
+	height: 200px;
+    background: orange;
     text-align: center;
-    border-right: 1px solid #000; 
+    border-bottom: 1px solid #000;
 }
    
 .Menu {
-    width: 23%;
-	height: 100px;
+    width: 700%;
+	height: 200px;
     background: red;
     text-align: center; 
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
 }
 .News {
     width: 23%;
-	height: 100px;
-    background: red;
+	height: 350px;
+    background: brown;
     text-align: center; 
+    color: white;
+    border-bottom: 1px solid #000;
+    border-right: 1 px solid black;
 }
 .List {
     width: 23%;
-	height: 100px;
-    background: red;
+	height: 200px;
+    background: orange;
     text-align: center; 
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
 }
 .Navig {
     flex: 1 1 0;
 	padding: 70px 25px;
 	
-	border-left: 1px solid #b5eae0;
-
-	text-align: center;
-    background-color: red;
+    border-left: 1px solid black;
+    text-align: center;	
+    background-color: black;
+    color: white;
 }
 .Footer {
     flex: 1 1 0;
-	padding: 70px 25px;
-	
-	border-left: 1px solid #b5eae0;
-
+	padding: 70px 25px;	
+	border-left: 1px solid black;
 	text-align: center;
-	background-color: red;
+	background-color: orange;
 }
 
