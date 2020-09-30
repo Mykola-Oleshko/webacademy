@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forma</title>
+
+</head>
+<style>
+    body {
+        text-align: left%;
+    }
+
+    fieldset {
+        display: inline;
+        width: 98%;
+
+    }
+
+    div {
+        margin-top: 10px;
+    }
+
+    button {
+        margin-top: 20px;
+    }
+
+    .auto {
+        overflow: hidden;
+    }
+</style>
+
+<body>
+
+    <form class="buttom" action="https://echo.htmlacademy.ru/" method="POST">
+        <div>
+            <fieldset class="Personal_information">
+                <legend>Personal information</legend>
+                <span>Surname:</span>
+                <input type="text" name="text" autocomplete="on" request>
+
+                <div>
+                    <span>Name:</span>
+                    <input type="text" name="text" autocomplete="on" request>
+
+                </div>
+                <div>
+                    <span>How old are you?</span>
+                    <input type="number" name="number" request>
+
+                </div>
+
+                <div>
+                    <span>Full date of birthdey?</span>
+                    <input type="date" name="text" autocomplete="on" request>
+
+                </div>
+                <div>
+                    <span>I accept the term of the agreement</span>
+                    <input type="checkbox" name="agreement">
+                </div>
+
+            </fieldset>
+        </div>
+        <div>
+            <fieldset class="Registration">
+                <legend>Registration</legend>
+                <div>
+                    <span>E-mail</span>
+                    <input placeholder="email@exampl.com" type="email" name="E-mail" autocomplete="on" request>
+
+                </div>
+                <div>
+                    <span>Password</span>
+                    <input type="password" name="password" autocomplete="on" request>
+
+                </div>
+            </fieldset>
+        </div>
+        <div>
+            <fieldset class="An">
+                <legend>An interesting fact about you!</legend>
+                <div>
+                    <span>Do you love cats</span>
+                    <input type="radio" name="cats" id="cats"> yes
+                    <input type="radio" name="cats" id="cats"> no
+                </div>
+
+                <div>
+                    <span>What your favorite color?</span>
+                    <input type="color" name="color">
+                </div>
+                <div>
+                    <span>What time do yougo to bed?</span>
+                    <input type="time" name="datetime">
+                </div>
+                <div>
+                    <span>What your favorite brand of the cars?</span>
+                    <select class="auto" name="select" multiple>
+                        <option value="BMW">BMW</option>
+                        <option value="AUDI">AUDI</option>
+                        <option value="LADA">LADA</option>
+                    </select>
+                </div>
+                <div>
+                    <span>Who do you rate our works?</span>
+                    <input type="range" min="0" max="100" step="1" value="0">
+
+                </div>
+            </fieldset>
+        </div>
+        <div>
+            <fieldset class="Additional_info">
+                <Legend>Additional info</Legend>
+                <div>
+                    <span>Coments:</span>
+                    <textarea></textarea>
+                </div>
+                <div>
+                    <span>Would you recommends us?</span>
+                    <form action="formdata">formdata
+                        <select type="number" name="number">
+                            <option value="Yes">Yes</option>
+                            <option value="No">No</option>
+                        </select>
+                </div>
+
+            </fieldset>
+        </div>
+        <button type="Submit">Submit!</button>
+    </form>
+
+
+
+
+
+
+</body>
+
+</html>
