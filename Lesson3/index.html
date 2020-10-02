@@ -1,11 +1,252 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: Roboto;
+        }
+
+        html {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+
+            width: 200px;
+            height: 403px;
+        }
+
+        .card {
+            background: #FFFFFF;
+            border: 1px solid #F3F3F3;
+            box-sizing: border-box;
+            border-radius: 5px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 200px;
+            height: 403px;
+
+
+        }
+
+
+
+        .img_ph {
+            display: flex;
+            padding: 30px 20px 0 20px;
+        }
+
+        .text_H {
+            display: flex;
+            flex-direction: row;
+            padding: 45px 16px 6px 15px;
+            font-size: 12px;
+            line-height: 15px;
+            font-weight: bold;
+        }
+
+        .cod {
+            display: flex;
+            font-size: 11px;
+            line-height: 13px;
+            padding: 0px 84px 0px 15px;
+        }
+
+        .block {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .star {
+            display: flex;
+            padding: 0 0 0px 0;
+        }
+
+        .img_star {
+            display: flex;
+            flex-direction: column;
+            padding: 15px 0 0px 0;
+        }
+
+        .img_star_big {
+            display: flex;
+            padding: 15px 0 0 0;
+        }
+
+        .otziv {
+            padding-top: 16px;
+            padding-left: 21px;
+            padding-right: 15px;
+            font-size: 11px;
+            padding-bottom: 0;
+            line-height: 13px;
+        }
+
+        .cont {
+            display: flex;
+
+        }
+
+        .chena {
+            display: flex;
+            font-size: 11px;
+            line-height: 13px;
+            padding: 25px 62px 0 15px;
+        }
+
+        .chislo {
+            display: flex;
+            font-style: 13px;
+            font-size: 16px;
+            line-height: 19px;
+            font-weight: bold;
+            padding-top: 21px;
+            padding-right: 15px;
+            padding-bottom: 10px;
+        }
+
+        button {
+            display: flex;
+
+            background: #00ACDC;
+            border-radius: 5px;
+            border: none;
+
+            color: white;
+            font-size: 14px;
+            line-height: 16px;
+            padding: 6px 25px;
+            margin-left: 15px;
+            margin-right: 15px;
+            margin-bottom: 15px;
+
+            justify-content: center;
+            align-items: center;
+        }
+
+        .push_a {
+            color: #00ACDC;
+            background-color: white;
+            border: 1px solid #00ACDC;
+            color: #00ACDC;
+            box-shadow: 1px 1px 4px 0 px grey;
+        }
+
+        .class_first {
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+
+            width: 200px;
+            height: 403px;
+
+        }
+
+        .class_second {
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+            visibility: hidden;
+            width: 200px;
+            height: 403px;
+
+
+
+        }
+
+        .class_first:hover {
+            display: none;
+        }
+
+        .class_first:hover+.class_second {
+            visibility: visible;
+        }
+
+
+
+        .class_second:hover {
+            visibility: hidden;
+        }
+    </style>
 </head>
+
 <body>
-    
+    <div class="class_first">
+        <div class="card">
+
+            <img class="img_ph" src="./cardImage.jpg" alt="photo">
+            <div class="text_H">Моноблок APPLE A1419 iMac  27" Retina 5K (MNED2UA/A)</div>
+            <p class="cod">Код товара: 195434</p>
+            <div class="block">
+                <div class="star">
+                    <img class="img_star" src="./Star (1).svg" alt="photo">
+                    <img class="img_star" src="./Star (1).svg" alt="photo">
+                    <img class="img_star" src="./Star (1).svg" alt="photo">
+                    <img class="img_star" src="./Star (1).svg" alt="photo">
+                    <img class="img_star_big" src="./Star.svg" alt="photo">
+                </div>
+                <div class="otziv">Отзывов: 5</div>
+            </div>
+            <div class="cont">
+                <div class="chena">Цена:</div>
+                <div class="chislo">69 999 грн</div>
+            </div>
+
+
+
+            <button>Купить</button>
+
+        </div>
+    </div>
+
+    <div class="class_second">
+        <div class="class_first">
+            <div class="card">
+
+                <img class="img_ph" src="./cardImage.jpg" alt="photo">
+                <div class="text_H">Моноблок APPLE A1419 iMac  27" Retina 5K (MNED2UA/A)</div>
+                <p class="cod">Код товара: 195434</p>
+                <div class="block">
+                    <div class="star">
+                        <img class="img_star" src="./Star (1).svg" alt="photo">
+                        <img class="img_star" src="./Star (1).svg" alt="photo">
+                        <img class="img_star" src="./Star (1).svg" alt="photo">
+                        <img class="img_star" src="./Star (1).svg" alt="photo">
+                        <img class="img_star_big" src="./Star.svg" alt="photo">
+                    </div>
+                    <div class="otziv">Отзывов: 5</div>
+                </div>
+                <div class="cont">
+                    <div class="chena">Цена:</div>
+                    <div class="chislo">69 999 грн</div>
+                </div>
+
+
+
+                <button class="push_a">Купить</button>
+
+            </div>
+        </div>
+    </div>
+
 </body>
+
 </html>
