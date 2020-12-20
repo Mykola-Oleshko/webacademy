@@ -1,0 +1,87 @@
+* {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.link {
+    text-decoration: none;
+    font-size: 5cm; 
+}
+
+.link1 {
+    font-size: 4cm;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+.first {
+    display: flex;
+    width: 50%;
+    height: 50%;
+    justify-content: space-between;
+    align-items: stretch;
+    text-align: center;
+	
+    
+}
+
+.second {
+    display: flex;
+    width: 50%;
+    height: 50%;
+    justify-content: space-between;
+    align-items: stretch;
+	
+    
+}
+.one {
+    display: flex;
+    flex: 1 0 100%;
+    
+    background: red;
+    /* text-align: center;      */
+    /* vertical-align: middle; */
+    align-items: center;
+    justify-content: center;
+    color: white;   
+    font-size: 1cm; 
+    text-decoration: none;
+    
+}
+
+.two {
+    display: flex;
+    flex: 1 0 100%;
+    text-align: center;     
+    vertical-align: middle;
+	background: rgba(231, 161, 161, 0.445);
+      
+}
+
+.tree {
+    display: flex;
+    flex: 1 0 100%;
+    text-align: center;     
+    vertical-align: middle;
+	background: rgb(116, 108, 108);
+      
+}
+
+.four {
+    display: flex;
+    flex: 1 0 100%;
+    text-align: center;     
+    vertical-align: middle;
+	background: rgb(102, 83, 83);
+      
+}
+
+       
+      
+
+
+
